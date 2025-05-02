@@ -1,0 +1,24 @@
+@import "button.css";
+@import "card.css";
+
+
+
+@import "navbar.css";
+@import "hero-bannner.css";
+@import "service.css";
+
+
+* {
+    margin-left: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+   
+}
+ html, body {
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+} 
+main     {
+    background-color: rgb(255, 255, 255);
+}
