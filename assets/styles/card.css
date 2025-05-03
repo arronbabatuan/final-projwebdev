@@ -1,9 +1,10 @@
 .card {
     background: #FFFFFF;
     width: 100%;
-    border: 1px solid #2c2626;
+    border: 2px solid #251207;
     border-radius: 16px;
     overflow: hidden;
+    flex-direction: column;
   }
   
   .card-header img {
@@ -19,6 +20,7 @@
   
   .card-body {
     padding: 0 18px;
+    color: rgb(34, 34, 202);
   }
   
   .card-footer {
