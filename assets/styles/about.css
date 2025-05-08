@@ -1,0 +1,52 @@
+.About-content h1 {  
+font-size: 40px; 
+font-family:'Times New Roman', Times, serif;
+position: absolute;
+top: 40%;
+left: 22%;    
+}
+  
+.About-content p {
+    margin: 14px 0;
+    gap: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:60%;
+    left: 14%; 
+}
+.About-content .btn-container {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 85%;   
+    left: 18%;
+}
+ 
+@media only screen and (max-width: 768px) {
+    .About-content h1 {  
+        font-size: 40px; 
+        font-family:'Times New Roman', Times, serif;
+        position: absolute;
+        top: 50%;
+        left: 26%;    
+        }
+          
+        .About-content p {
+            margin: 14px 0;
+            gap: 5px;
+            font-family:Arial, Helvetica, sans-serif;
+            position: absolute;
+            top:60%;
+            left: 2%; 
+            font-size: 14px;
+        }
+        .About-content .btn-container {
+            display: flex;
+            gap: 10px;
+            position: absolute;
+            top: 85%;   
+            left: 10%;
+        }
+         
+}
+
