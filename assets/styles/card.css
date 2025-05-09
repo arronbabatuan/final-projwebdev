@@ -8,6 +8,11 @@
     flex-direction: column;
     text-align: center;
     box-shadow: 0 4px 20px rgba(3, 3, 3, 3);
+    
+  }
+  .card:hover {
+    transform: scale(1.078);
+    transition: all ease 0.8s;
   }
   
   .card-header img {
