@@ -13,6 +13,8 @@
   .primary-button:hover {
     background: #daa520;
     color: black;
+    transform: scale(1.09);
+    transition: all ease 0.5s;
   }
   
   .secondary-button {
@@ -28,6 +30,8 @@
   
   .secondary-button:hover {
     background: #300a0a;
-    color:#daa520
+    color:#daa520;
+    transform: scale(1.09);
+    transition: all ease 0.5s;
     
   }

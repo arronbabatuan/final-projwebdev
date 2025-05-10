@@ -9,6 +9,8 @@
 @import "footer.css";
 @import "about.css";
 @import "contact.css";
+@import "thankyou.css";
+@import "reserve.css";
 
 * {
     margin-left: 0px;
