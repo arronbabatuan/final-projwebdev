@@ -1,37 +1,45 @@
 .primary-button {
-    background: #300a0a;
+    background: rgb(48, 10, 10);
     padding: 20px 38px;
     border: 1px solid transparent;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 10px rgba(3, 3, 3, 3);
+
 
 
   }
   
   .primary-button:hover {
-    background: #daa520;
-    color: black;
+    background: rgb(218, 165, 32);
+    color: rgb(0, 0, 0);
     transform: scale(1.09);
     transition: all ease 0.5s;
+    box-shadow: 0 4px 20px rgba(3, 3, 3, 3);
+    
   }
   
   .secondary-button {
     background: transparent;
     padding: 20px 38px;
-    border: 1px solid #2e1f1f;
+    border: 1px solid rgb(46, 31, 31);
     border-radius: 5px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
     border-width: thin 1px;
-  ;
+    box-shadow: 0 2px 10px rgba(3, 3, 3, 3);
+
+  
   }
   
   .secondary-button:hover {
-    background: #300a0a;
-    color:#daa520;
+    background: rgb(48, 10, 10);
+    color:rgb(218, 165, 32);
     transform: scale(1.09);
     transition: all ease 0.5s;
+    box-shadow: 0 2px 10px rgba(3, 3, 3, 3);
+
     
   }

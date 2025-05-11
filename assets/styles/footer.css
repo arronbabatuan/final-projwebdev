@@ -1,27 +1,27 @@
 .icon{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .icon ion-icon{
     font-size: 30px;
     padding-left: 14px;
     padding-right: 14px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 #footer {
-    background: #2c0c0c;
-    color: white;
+    background: rgb(44, 12, 12);
+    color: rgb(255, 255, 255);
     padding: 20px 0;
     text-align: center;
    
 }
 #footer:hover {
-  background: #694d04;
+  background: rgb(105, 77, 4);
   transition: all ease 0.4s;
   
 }
 .footer a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
     font-weight: initial;
@@ -29,6 +29,6 @@
 }
 .social-links li a {
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     
 }

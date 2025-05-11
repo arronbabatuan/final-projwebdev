@@ -19,7 +19,8 @@ left: 22%;
     gap: 10px;
     position: absolute;
     top: 85%;   
-    left: 18%;
+    left: 22%;
+    
 }
  
 @media only screen and (max-width: 768px) {
@@ -45,7 +46,7 @@ left: 22%;
             gap: 10px;
             position: absolute;
             top: 85%;   
-            left: 10%;
+            left: 33%;
         }
          
 }
