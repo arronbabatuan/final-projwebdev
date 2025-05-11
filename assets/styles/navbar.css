@@ -17,6 +17,8 @@ body {
 #header:hover {
   background: rgb(105, 77, 4);
   transition: all ease 0.4s;
+  transform: scale(1.02);
+  transition: ease-in-out 0.7s;
 }
 
 .navbar {
