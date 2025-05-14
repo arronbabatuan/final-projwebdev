@@ -13,6 +13,7 @@ left: 22%;
     position: absolute;
     top:60%;
     left: 14%; 
+    width: 35%;
 }
 .About-content .btn-container {
     display: flex;

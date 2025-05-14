@@ -32,5 +32,8 @@
   }
   
   .card-footer {
-    padding: 14px 18px;
+    padding: 7px 10px;
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
   }

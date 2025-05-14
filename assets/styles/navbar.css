@@ -16,9 +16,10 @@ body {
 }
 #header:hover {
   background: rgb(105, 77, 4);
-  transition: all ease 0.4s;
   transform: scale(1.02);
-  transition: ease-in-out 0.7s;
+  transition: ease-in-out 0.4s;
+  box-shadow: 0 4px 20px rgb(131, 0, 0);
+ 
 }
 
 .navbar {
@@ -32,6 +33,7 @@ body {
 .nav-links {
   display: flex;
   gap: 24px; 
+  z-index: 5;
 
 }
 
@@ -96,7 +98,7 @@ body {
     width: 100%;
     padding: 20px;
     z-index: 1;
-  }
+  }  
 
   .menu-toggle:checked~.nav-links {
     display: flex;
